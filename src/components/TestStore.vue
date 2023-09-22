@@ -51,10 +51,7 @@ export default {
             schema,
             status: { loggedIn: false },
             dtuser: {
-                id_user: 3,
-                name: "Langgeng",
-                email: "langgeng@bpkp.go.id",
-                token: "740006066",
+               
             },
             hak_unit: [
                 {
