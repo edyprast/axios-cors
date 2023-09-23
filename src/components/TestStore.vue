@@ -105,7 +105,7 @@ export default {
           .catch((error) => {
             console.log(error);
           });
-      // this.isidata();
+      this.isidata();
     },
     isidata() {
       // this.$store.dispatch('setUser', this.dtuser)
@@ -114,7 +114,7 @@ export default {
 
       this.$store.commit("sidebarModule/updateSidebarVisible", {value: true});
       this.$store.dispatch("profiluserModule/setHakUnit", this.hak_unit);
-      // await this.$store.dispatch("profiluserModule/setHakFitur", this.hak_fitur);
+      this.$store.dispatch("profiluserModule/setHakFitur", this.hak_fitur);
 
     },
   },
